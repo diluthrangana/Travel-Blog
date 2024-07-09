@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Express.js
+*.env
+
+# React.js
+/build
+/node_modules
+/.pnp
+.pnp.js
+
+# MongoDB (optional)
+*.db
+
+# Logs
+logs
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

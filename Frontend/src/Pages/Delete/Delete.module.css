@@ -1,0 +1,47 @@
+/* Main container styling */
+.DeleteMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+}
+
+/* Wrapper to center the main container */
+.DeleteWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 130px;
+     /* Full height to center vertically */
+}
+
+/* Heading styling */
+h6 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #333; /* Dark text */
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff; /* White text */
+    background-color: #ff5252; /* Red background */
+    border: none;
+    border-radius: 5px; /* Slightly rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff0000; /* Darker red on hover */
+}

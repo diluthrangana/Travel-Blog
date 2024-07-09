@@ -1,0 +1,7 @@
+.Btn {
+    background: var(--main);
+    color:#000;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 999px;
+}

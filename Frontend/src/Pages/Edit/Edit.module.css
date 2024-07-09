@@ -1,0 +1,66 @@
+.EditBlog {
+    max-width: 800px;
+    margin: 0 auto 100px;
+    margin-top: 100px;
+  }
+  
+  .EditBlog_Row {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .EditBlog_Row h6 {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .EditBlog_Row input, 
+  .EditBlog_Row textarea {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .EditBlog_Row textarea {
+    height: 200px;
+    resize: none;
+  }
+  
+  .EditBlog_Row .btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .EditBlog_Row .btn:hover {
+    background-color: #0056b3;
+  }
+
+  .introduction {
+    flex: 1;
+    position: relative;
+  }
+  
+
+  
+
+  .title {
+    flex: 2;
+  }
+  

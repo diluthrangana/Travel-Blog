@@ -1,0 +1,197 @@
+.Home {
+    
+    
+    height: 70vh;
+    width: 100%;
+    overflow: hidden; 
+    
+}
+
+.Video {
+    
+    opacity: 0.8;
+    position: absolute;
+    top: 10%; 
+    left: 0;
+    width: 100%;
+    height: 90%; 
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.AllBlogs {
+    
+    padding-inline: 100px; 
+    margin-block: 50px; 
+    padding-bottom: 80px;
+}
+
+.AllBlogs_Row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 50px;
+}
+
+.AllBlogs_Box {
+    
+    position: relative;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.AllBlogs_Box:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+}
+
+.AllBlogs_Box img {
+    height: 300px; 
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0; 
+}
+
+.AllBlogs_Box .AllBlogs_BoxContent {
+    position: absolute;
+    padding: 20px; 
+    bottom: 0;
+    height: 150px; 
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 0 0 15px 15px; 
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.AllBlogs_BoxContent h6 {
+    font-weight: 700;
+    font-size: 18px; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.AllBlogs_BoxContent .Intro {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.AllBlogs_Box:hover .AllBlogs_BoxContent_Icons {
+    bottom: 0;
+}
+
+.AllBlogs_BoxContent_Icons {
+    position: absolute;
+    bottom: -50px;
+    padding: 10px;
+    transition: bottom 0.3s ease; 
+}
+
+.AllBlogs_BoxContent_Icons a {
+    margin-inline: 10px; 
+    font-size: 24px; 
+    color: #696969; 
+    transition: color 0.3s ease; 
+}
+
+.AllBlogs_BoxContent_Icons a:hover {
+    color: #000000; 
+}
+
+/* Blogs.module.css */
+
+
+
+.ButtonSection {
+    display: flex;
+    justify-content: center; 
+    margin-top: 200px; 
+}
+
+
+.AddButton {
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: Clarkson, Helvetica, sans-serif;
+  font-size: 14px;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.AddButton:hover {
+  background: #f8f8ff;
+  box-shadow: -20px -20px 60px 0 #fff, 15px 15px 10px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+  .AddButton {
+    padding: 15px;
+  }
+}
+        
+.CardContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+
+.TopBloggers {
+    background-color: rgba(248, 248, 255, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.Profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.ProfileImage {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 0 0 1px white; /* Add this line */
+}
+
+.ProfileImage:hover {
+    transform: translateY(-10px);
+}
+

@@ -1,0 +1,65 @@
+/* Navbar.module.css */
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Decreased padding */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark text color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 60px; /* Decreased height */
+}
+
+.Logo img {
+    height: 40px;
+}
+
+.NavTabs {
+    display: flex;
+}
+
+.NavTab {
+    padding: 10px 20px;
+    color: #343a40; /* Dark text color */
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease, transform 0.2s ease;
+}
+
+.NavTab:hover {
+    border-bottom-color: #007bff; /* Darker blue color */
+    transform: scale(1.1); /* Scale the text on hover */
+}
+
+
+.SearchBar {
+    display: flex;
+    align-items: center;
+    margin-left: 500px; 
+  }
+  
+  .SearchBar input {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .SearchButton {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .SearchButton:hover {
+    background-color: #0056b3;
+  }

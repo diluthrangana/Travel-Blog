@@ -1,0 +1,28 @@
+.ViewBlog img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.ViewBlog_Content {
+    padding: 20px;
+}
+
+.ViewBlog_Content h6 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.ViewBlog_Content .Intro {
+    padding: 20px;
+    border-left: 30px solid var(--main);
+    box-shadow: var(--boxShadow);
+    margin-block: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.ViewBlog_Content .Desc {
+    font-size: 16px;
+    line-height: 30px;
+}
