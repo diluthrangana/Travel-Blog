@@ -10,6 +10,10 @@ const NavLinks = [
     {
         LinkText: "Blogs",
         LinkTo:"/Blogs",
+    },
+    {
+        LinkText: "Planning a Trip",
+        LinkTo:"/Plan",
     }
 ];
 

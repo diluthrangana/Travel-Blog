@@ -10,6 +10,7 @@ import Delete from './Pages/Delete/Delete'
 import Home from './Pages/Home/Home'
 import Blogs from './Pages/Blogs/Blogs'
 import Add from './Pages/Add/Add'
+import Plan from './Pages/Plan/Plan'
 
 
 
@@ -25,6 +26,7 @@ function App() {
     <Route path= '/Delete/:id' element={[<Navbar />,<Delete />,<Footer />]}></Route>
     <Route path= '/Edit/:id' element={[<Navbar />,<Edit />,<Footer />]}></Route>
     <Route path= '/Add' element={[<Navbar />,<Add />,<Footer />]}></Route>
+    <Route path= '/Plan' element={[<Navbar />,<Plan />,<Footer />]}></Route>
    </Routes>
    </>
   )
