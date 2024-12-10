@@ -197,7 +197,7 @@ const Blogs: React.FC = () => {
                 />
 
                 <div className={styles.AllBlogs_BoxContent}>
-                  <h6>Upcoming Blogs</h6>
+                  <h6>Ella</h6>
                   <p className={styles.Intro}>
                     Ella is a dynamic and innovative professional with a passion
                     for technology and design. With a background in machine
@@ -223,7 +223,7 @@ const Blogs: React.FC = () => {
                 />
 
                 <div className={styles.AllBlogs_BoxContent}>
-                  <h6>Upcoming Blogs</h6>
+                  <h6>AdamSpeak</h6>
                   <p className={styles.Intro}>
                     AdamSpeak is a pioneering communication platform designed to
                     revolutionize the way we connect and collaborate. Combining

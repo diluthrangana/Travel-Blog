@@ -45,7 +45,7 @@ const Add: React.FC = () => {
                 <input type="text" placeholder='Blog Title' value={BlogTitle} onChange={(e)=>setBlogTitle(e.target.value)} />
                 <input type="text" placeholder='Blog Img Url' value={BlogImgUrl} onChange={(e)=>setBlogImgUrl(e.target.value)} />
                 <textarea placeholder='Blog Intro' value={BlogIntro} onChange={(e)=>setBlogIntro(e.target.value)} />
-                <textarea placeholder='Blog Title' value={BlogDesc} onChange={(e)=>setBlogDesc(e.target.value)} />
+                <textarea placeholder='Blog Description' value={BlogDesc} onChange={(e)=>setBlogDesc(e.target.value)} />
 
                 <button className={styles.btn} onClick={AddNewBlog}>Add New Blog</button>
                 

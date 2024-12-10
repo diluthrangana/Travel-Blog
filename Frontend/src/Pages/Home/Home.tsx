@@ -4,7 +4,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
-  const titles = ["Welcome to My Site", "Learn with Us", "Join Our Community"];
+ c  const titles = ["Welcome to Tedora", "Explore The World", "Join Our Community"];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
